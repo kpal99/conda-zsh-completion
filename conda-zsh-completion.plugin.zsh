@@ -5,4 +5,4 @@
 
 DIR=$HOME/.local/share/zsh/site-functions
 mkdir -p $DIR
-cp -v _conda $DIR
+ln -sf $PWD/_conda $DIR
